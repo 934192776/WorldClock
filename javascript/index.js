@@ -47,6 +47,10 @@ function updateTime() {
     `;
   }
   
+function updateCity(event) {
+  let cityTimeZone = event.target.value;
+}
+
   updateTime();
   setInterval(updateTime, 1000);
   
